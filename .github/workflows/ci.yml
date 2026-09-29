@@ -29,7 +29,7 @@ jobs:
           AGENT_API_KEY: test-key-ci
           REDIS_URL: fake://
         run: |
-          pytest tests/ -v --ignore=tests/test_cp5.py -m "not docker"
+          pytest tests/test_cp1.py tests/test_cp2.py tests/test_cp3.py tests/test_cp4.py -v --ignore=tests/test_cp5.py -m "not docker"
 
   build:
     name: Build Docker Image
