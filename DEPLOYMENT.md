@@ -100,5 +100,6 @@ content-type: application/json
 
 Đã lưu ảnh trong thư mục `screenshots/`:
 
-- `screenshots/dashboard.png` — trang quản lý Blueprint và hai service day12-agent, day12-redis ở trạng thái Live trên Render
+- `screenshots/dashboard.png` — trang quản lý service day12-agent ở trạng thái Deploy succeeded / Live và log runtime thực tế trên Render
+- `screenshots/redis_log.png` — log service day12-redis ở trạng thái Ready to accept connections trên Render
 - `screenshots/health.png` — kết quả kiểm tra endpoint /health, /ready và xác thực an toàn qua Public URL https://day12-agent-0a72.onrender.com
